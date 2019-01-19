@@ -7,20 +7,12 @@ nav ul li{
 }
 
 nav ul li a{
-    display:inline block;
+    display:inline-block;
     padding: .5rem irem;
     border: 1px solid orange;    
     background-color:orange
   }
 
-
-/*
-nav ul li a{
-    display: block;
-    padding: .5rem irem;
-    background-color: #f89c1f
-}
-*/
 main h1 {
     clear: both;
 }
