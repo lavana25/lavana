@@ -2,7 +2,7 @@
 @media only screen and (min-width: 64rem) {
 
     header, nav, main, footer {
-        max-width: 64rem;
+        max-width: 55rem;
         margin:auto;
     }
 
@@ -11,7 +11,9 @@
 
 
 /*----------- HEADER --------------*/
-
+header img{ width: 75px;}
+header h1{font-size: 2rem;}
+header h2 {font-size: 1.5rem;}
 
 
 /*----------- NAVIGATION --------------*/
@@ -20,9 +22,8 @@
 
 /*----------- MAIN --------------*/
 main figure.myphoto img{ width:100%;}
-main figure.myphoto figcaption{text-align: center;font size: .75rem;}
-
+main figure.myphoto figcaption{ text-align: center; font-size:.7.5rem}
 
 /*----------- FOOTER --------------*/
     
-/* end of media query */
+}/* end of media query */

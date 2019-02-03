@@ -15,9 +15,9 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: goldenrod;
+    background-color: red;
 }
-header img{float:right; margin-right: 10px;width:50px}
+header img{float:left; margin-right: 10px;width:50px}
 header h1 {margin: 0; font-size: 1.3rem;}
 header h2 {margin: 0; font-weight: normal;font-size:1rem}
 
@@ -42,7 +42,7 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    background-color: goldenrod;
+    background-color: green;
     color: #333;
 }
 nav ul li.active a {
@@ -61,12 +61,12 @@ float: right;
 }
 
 main figure.myphoto img{ width:33%;}
-main figure.myphoto figcaption{text-align: center;font size: .75rem;}
+
 
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: goldenrod;
+    background-color:red;
     padding: .5rem 2%;
     text-align: center;
 }
